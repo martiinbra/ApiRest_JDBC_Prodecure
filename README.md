@@ -1,6 +1,7 @@
 # ApiRest_JDBC_Prodecure
 
 ----Actualización---
+
 Para la comparación entre JDBC y JPA, se ha subido el primer proyecto desarrollado de nombre "demo", demo implementa JPA
 
 ---------------------
@@ -14,6 +15,7 @@ y los demás de tipo String (marca, modelo, fecha, string)
 
 El procedimiento almacenado se llama marca_procedure y se encarga de filtrar por la marca de auto
 en mysql ese es el código:
+
 CREATE DEFINER=`root`@`localhost` PROCEDURE `marca_procedure`(IN `marcaIn` VARCHAR(255))
     READS SQL DATA
 SELECT * FROM autos WHERE marca = marcaIn
