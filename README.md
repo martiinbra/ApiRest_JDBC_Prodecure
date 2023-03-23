@@ -5,7 +5,7 @@
 Para la comparación entre JDBC y JPA, se ha subido el primer proyecto desarrollado de nombre "demo", demo implementa JPA
 
 ---------------------
-demo10, se trabajó sobre demo reemplazando el JPA por JDBC haciando algunas modificacones a la clase.
+demo10, se trabajó sobre demo reemplazando el JPA por JDBC haciando algunas modificacones a las clases.
 
 Esta es una api rest sencilla, utilizando jdbc, spring y mysql, que hace uso de un procedimiento almacendo de la base de datos
 
